@@ -63,6 +63,8 @@ function App() {
         <Route exact path="/" element={ <AdminHome></AdminHome>} />
         <Route exact path="/admin-products" element={ <ProductManagement></ProductManagement>} />
         <Route exact path="/admin-billings" element={<Billing></Billing>} />
+        <Route exact path="/customer-offers" element={<CustomerOffers></CustomerOffers>} />
+        <Route exact path="/offers" element={<CustomerOffers></CustomerOffers>} />
         <Route exact path="/admin-feedback-view" element={<FeedbackViewer></FeedbackViewer>} />
         <Route exact path="/admin-orders" element={<AllOrder></AllOrder>} />
         <Route path="/about" element={<Aboutus></Aboutus>} />
@@ -73,6 +75,7 @@ function App() {
         <Route exact path="/customer-menu" element={<Menu></Menu>} />
         <Route exact path="/customer-offers" element={<CustomerOffers></CustomerOffers>} />
         <Route exact path="/customer-feedback" element={<GiveFeedback></GiveFeedback>} />
+        <Route exact path="/offers" element={<CustomerOffers></CustomerOffers>} />
         <Route exact path="/customer-order-history" element={<OrderHistory phoneNumber = {currentAccount}></OrderHistory>} />
         <Route path="/about" element={<Aboutus></Aboutus>} />
         <Route path="/contact" element={<Contactus></Contactus>} />

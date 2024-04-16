@@ -19,17 +19,17 @@ function Aboutus() {
           className="background-image"
         />
   
-        <div className="about-us-overlay" style={{ marginBottom:"20%", position: 'absolute', bottom: '20px', left: '50%', transform: 'translatex(-50%)', textAlign: 'center' }}>
-          <h2 style={{ fontSize: '36px', fontWeight: 'bold', color: '#fff', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' }}>
+        <div className="about-us-overlay shadow p-2" style={{ marginBottom:"20%", position: 'absolute', bottom: '20px',width:"80%", left: '50%',top:'10%', transform: 'translatex(-50%)', textAlign: 'center',backgroundColor:"white",color:"black" }}>
+          <h2 className='p-1' style={{ fontSize: '36px',backgroundColor:"darkseagreen", fontWeight: 'bold',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' }}>
             About Us
           </h2>
-          <p style={{ fontSize: '18px', color: '#fff', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)' }}>
+          <p style={{ fontSize: '18px',  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)' }}>
             Welcome to Two Cups Cafe & Resto, where we serve the finest coffee and delicious snacks.
           </p>
-          <p style={{ fontSize: '18px', color: '#fff', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)' }}>
+          <p style={{ fontSize: '18px',  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)' }}>
             At Two Cups, our passion is to provide a warm and inviting atmosphere for coffee enthusiasts and food lovers alike.
           </p>
-          <p style={{ fontSize: '18px', color: '#fff', textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)' }}>
+          <p style={{ fontSize: '18px',  textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)' }}>
             Explore our diverse menu, featuring a wide range of coffee blends, delectable snacks, and hearty meals crafted with love and care.
           </p>
           <div style={{ marginTop: '20px' }}>

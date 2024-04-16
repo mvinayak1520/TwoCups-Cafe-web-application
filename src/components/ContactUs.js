@@ -56,8 +56,8 @@ function Contactus() {
           className="background-image"
         />
   
-        <div className="contact-us-overlay" style={{ marginBottom: '5%', position: 'absolute', bottom: '20px', left: '50%', transform: 'translatex(-50%)', textAlign: 'center', width: '80%' }}>
-          <h2 style={{ fontSize: '36px', fontWeight: 'bold', color: '#fff', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' }}>
+        <div className="contact-us-overlay p-3" style={{backgroundColor:"white", marginBottom: '5%', position: 'absolute', bottom: '20px', left: '50%', transform: 'translatex(-50%)', textAlign: 'center', width: '80%' }}>
+          <h2 style={{ fontSize: '36px', fontWeight: 'bold',textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' }}>
             Contact Us
           </h2>
 
@@ -69,7 +69,7 @@ function Contactus() {
     placeholder="Your Name"
     value={formData.name}
     onChange={handleChange}
-    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent', color: '#fff' }}
+    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent'  }}
   />
   <span style={{ color: 'red', marginBottom: '10px' }}>{formErrors.name}</span>
 
@@ -79,7 +79,7 @@ function Contactus() {
     placeholder="Your Email"
     value={formData.email}
     onChange={handleChange}
-    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent', color: '#fff' }}
+    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent' }}
   />
   <span style={{ color: 'red', marginBottom: '10px' }}>{formErrors.email}</span>
 
@@ -89,7 +89,7 @@ function Contactus() {
     placeholder="Your Phone Number"
     value={formData.phoneNumber}
     onChange={handleChange}
-    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent', color: '#fff' }}
+    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent' }}
   />
   <span style={{ color: 'red', marginBottom: '10px' }}>{formErrors.phoneNumber}</span>
 
@@ -98,7 +98,7 @@ function Contactus() {
     placeholder="Your Message"
     value={formData.message}
     onChange={handleChange}
-    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent', color: '#fff' }}
+    style={{ width: '100%', padding: '10px', margin: '10px 0', borderRadius: '5px', backgroundColor: 'transparent' }}
   />
   <span style={{ color: 'red', marginBottom: '10px' }}>{formErrors.message}</span>
 

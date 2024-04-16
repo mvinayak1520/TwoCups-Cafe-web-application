@@ -4,13 +4,13 @@ import { getDatabase, ref, set ,} from "firebase/database";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAiu8WU4K2pq_ZDDUgNQUtle0Uphd4CFEM",
-  authDomain: "twocups-cafe-resto.firebaseapp.com",
-  databaseURL: "https://twocups-cafe-resto-default-rtdb.firebaseio.com",
-  projectId: "twocups-cafe-resto",
-  storageBucket: "twocups-cafe-resto.appspot.com",
-  messagingSenderId: "57570929734",
-  appId: "1:57570929734:web:60fdf6ebccd4f3a0892e47"
+  apiKey: "AIzaSyAiJf1SDTPpfRHr4NwckDu_1ImNpju6y14",
+  authDomain: "jarvis-systems-commons.firebaseapp.com",
+  databaseURL: "https://jarvis-systems-commons-default-rtdb.firebaseio.com",
+  projectId: "jarvis-systems-commons",
+  storageBucket: "jarvis-systems-commons.appspot.com",
+  messagingSenderId: "383480447879",
+  appId: "1:383480447879:web:45baeaa9517cbb97088922"
 };
 
 export const app = initializeApp(firebaseConfig);
